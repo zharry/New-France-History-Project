@@ -1,0 +1,4 @@
+with obj_display_left instance_destroy()
+with obj_display_right instance_destroy()
+with obj_display_down instance_destroy()
+with obj_left_text instance_destroy()

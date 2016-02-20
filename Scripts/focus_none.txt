@@ -1,0 +1,11 @@
+global.questionid=0
+
+/*
+0 = None
+1 = Quebec
+2 = Louisbourg
+3 = Montreal
+4 = Ohio
+5 = Acadia
+6 = More
+*/

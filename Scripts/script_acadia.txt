@@ -1,0 +1,12 @@
+//Destroy all objects
+
+with obj_display_left instance_destroy()
+with obj_display_right instance_destroy()
+with obj_display_down instance_destroy()
+with obj_left_text instance_destroy()
+
+//Create Only the nesseary ones
+
+global.questionid=5
+instance_create(0,0,obj_display_left)
+instance_create(x,y,obj_left_text)

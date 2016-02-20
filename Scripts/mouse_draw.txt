@@ -1,0 +1,8 @@
+draw_set_color(c_black)
+draw_set_font(font_font)
+global.mouse_location_detect_x=950
+global.mouse_location_detect_y=600
+draw_text(global.mouse_location_detect_x,global.mouse_location_detect_y,'Mouse Location (x,y):')
+draw_text(global.mouse_location_detect_x-20,global.mouse_location_detect_y+20,mouse_x)
+draw_text(global.mouse_location_detect_x+20,global.mouse_location_detect_y+20,',')
+draw_text(global.mouse_location_detect_x+28,global.mouse_location_detect_y+20,mouse_y)

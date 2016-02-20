@@ -1,0 +1,119 @@
+draw_set_color(c_white)
+
+/* 0 = None  1 = Quebec  2 = Louisbourg  3 = Montreal  
+4 = Ohio 5 = Acadia  6 = More */
+draw_set_font(font_bold)
+if global.questionid=1
+{
+draw_text(120,273,"      Quebec
+
+Quebec is the Center of Control for Fance so after Louisbourg was taken by the English,
+they then attacked Quebec to take over the French rule over North America.
+
+General Wolfe attacked Quebec in the spring of 1759 and Quebec was attacked from the water.
+
+The attack lasted for 3 months without much sucess for the English, so the English went
+upstream to cut the supplies comming from the west.
+
+After the Fortess was taken over by the English, retreated to Montreal and attacked back the
+following year, 1760. They forces the English back outside the borders of Quebec.
+
+The outcome of the war was decided by whose supply ships came first. The English supply ships
+came first.
+
+Quebec was taken by the English in 1760.")
+}
+if global.questionid=2
+{
+draw_text(20,20,"Louisbourg
+
+To gain control of the St.Lawrance river, the
+English must take over the Fortess of Louisbourg.
+The English wannted to gain control over the 
+St.Lawrance river because, after doing that 
+the French capital, Quebec can be taken over.
+
+-------------------------------------------------
+Attack of 1745
+
+
+The attack of 1745 was lead by William Pepperell
+and was captured in 46 days by 4000 New Englanders
+who marched to Louisbourg from Boston.
+Louisborug was returned to France because of the
+Treaty of Aix-la-Chapelle in 1748.
+
+-------------------------------------------------
+Attack of 1758
+
+Louisbourg was attacked and captured by the
+Britsh in 1758 not only in 1745.
+On June 1758, the Britsh attacked Louisbourg.
+The battle was not very long, only lasting
+60 days, the English has completely distroyed
+Louisbourg by the time the French surendered.
+This victory for the British gave them a path in
+taking over the French rule over North America
+
+-------------------------------------------------
+Other Notes:
+
+- Louisbourg was an important French fortress
+from 1719-1760.")
+}
+if global.questionid=3
+{
+draw_text(20,100,"Montreal
+
+After the British took Quebec the Officals retreated
+to Montreal until they took over Quebec again in 1760.
+
+Forcing the English outside the borders of Quebec,
+the outcome of the war to control North America was
+ended with the English Supply ships arriving before 
+the French and British troops marched to Montreal
+and burned crops and houses as they advanced.
+
+The French governer, Vaudreui, surrendered.
+However the commander of the French army, Chevalier
+de Levis, instead of surrendering he orderd that the
+French flags be burned.")
+}
+if global.questionid=4
+{
+draw_text(668,150,"Ohio Valley
+
+Before the fall of Louisbourg, Ohio Valley was well
+defended by the French. The reason for the Capture of
+Ohio Valley was to give another access way to Quebec,
+the French Capital of North America.
+
+Ohio Valley was captured with Fort Frontenac and Fort
+Duquesne's fall in August and November. After Ohio
+Valley fell, the British were free to travel
+upstream and reach Quebec")
+}
+if global.questionid=5
+{
+draw_text(20,150,"Acadia
+
+Because the British was concerned of the amount of
+French settlers in Acadia, the Acadians were asked
+to take a oath of allegiance to the British and refused
+so the British deported the Acadians in 1755.
+
+Major deportation happened in 1755, but continued
+until 1762. Around 11000 Acadians were deported.")
+}
+if global.questionid=6
+{
+draw_text(20,400,"More Events
+
+- 1658, Iroquois attacks threatened to destroy France. The Iroguois did destroy
+ the Huron, blocking the French fur trade.
+
+- 1661, New France sent to King Louis XIV for intervention.
+
+- 1663, New France claimed the land that is now, Subury, Niagra Falls, Toronto,
+ Montreal, Quebec, Nova Scotia, Northern New Brunswick, Western Newfounland and Eastern Labrador.")
+}
